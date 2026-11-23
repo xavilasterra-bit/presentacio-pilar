@@ -27,7 +27,7 @@
     }
 
     *, *::before, *::after { box-sizing: border-box; }
-    html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; overflow-x: clip; }
+    html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
     body {
       margin: 0;
       background: var(--paper);
@@ -278,7 +278,7 @@
       background: var(--card);
       padding: 28px 26px 22px;
       display: flex; flex-direction: column;
-      overflow-y: auto; overscroll-behavior: contain;
+      overflow-y: auto;
       border-top: 6px solid var(--accent, var(--terra));
       scrollbar-width: thin;
     }
